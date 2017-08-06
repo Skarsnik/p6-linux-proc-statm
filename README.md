@@ -1,6 +1,6 @@
-#Name Linux::Proc::Statm
+# Name Linux::Proc::Statm
 
-#Usage
+# Usage
 
 ```perl
  use Linux::Proc::Statm;
@@ -9,9 +9,9 @@
  say get-statm.perl; #use $*PID
 ```
 
-Values are given in Kb.
+Values are given in Kb by default
 
-#Author
+# Author
 
 Sylvain "Skarsnik" Colinet <scolinet@gmail.com>
 
